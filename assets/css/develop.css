@@ -1,0 +1,11 @@
+.develop {
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    justify-items: center;
+}
+
+.develop__title {
+    margin-bottom: 30px;
+    color: var(--title-color);
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favikon-kireev.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/price-list.css">
+    <style>
+        h4 {
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        h5 {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            font-size: 1.1rem;
+        }
+
+        div {
+            font-size: 1rem;
+        }
+    </style>
+
+    <title>Прайс-лист</title>
+</head>
+
+<body>
+    <main class="price-main" style="margin: 5rem 0 5rem 0;">
+        <div class="container grid">
+            <h4 class="price__title">Прайс-лист</h4>
+
+            <ul class="price__data">
+
+                <li class="price__row">
+                    <h5 class="price__subtitle">1. Абонентское обслуживание (за месяц)</h5>
+                    <p class="price__total"></p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Персональных компьютеров, моноблоков и ноутбуков до 5 единиц техники</h5>
+                    <p class="price__total">от 5000 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Персональных компьютеров, моноблоков и ноутбуков от 6 до 10 единиц техники
+                    </h5>
+                    <p class="price__total">от 10000 руб..</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Персональных компьютеров, моноблоков и ноутбуков от 11 до 20 единиц техники
+                    </h5>
+                    <p class="price__total">от 15000 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Интернет-маршрутизатора</h5>
+                    <p class="price__total">от 1500 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Мини-АТС (цифровой, аналоговой)</h5>
+                    <p class="price__total">от 2500 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Программной части принтера или МФУ (без заправки)</h5>
+                    <p class="price__total">от 450 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Интернет-Сервера на базе полноценной серверной ОС</h5>
+                    <p class="price__total">от 5000 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Систем видеонаблюдения (зависит от количества)</h5>
+                    <p class="price__total">от 1000 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Продуктов системы 1С</h5>
+                    <p class="price__total">от 2000 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Сайтов (зависит от система управления контентом)</h5>
+                    <p class="price__total">от 1000 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Сайтов (зависит от система управления контентом)</h5>
+                    <p class="price__total">от 1000 руб.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__subscribe">В абонентское обслуживание входят любые работы по поддержке или
+                        восстановлению работоспособности компьютерной техники и оргтехники из-за программного или
+                        аппаратного сбоя, консультации и обучение пользователей по работе с оборудованием,
+                        мелкий ремонт, не требующий комплектующих. Доставка в сервисную службу (при серьезной поломке)
+                        и обратно не входит в абонентскую плату. Комплектующие для замены вышедших из строя оплачиваются
+                        отдельно.
+                        Заправку картриджей не осуществляем, но рекомендуем проверенные сервисные центры.</h5>
+                </li>
+
+
+                <li class="price__row">
+                    <h5 class="price__subtitle">2. Работа специалистов (нормо/час)</h5>
+                    <p class="price__total"></p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Удаленная работа технического специалиста</h5>
+                    <p class="price__total">от 1000 руб./час</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Работа технического специалиста, с выездом (в черте города)</h5>
+                    <p class="price__total">от 1200 руб./час</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Работа технического специалиста, с выездом (за пределы города)</h5>
+                    <p class="price__total">договорн.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__subscribe">Обслуживание осуществляется в городе Краснодар</h5>
+                </li>
+
+
+                <li class="price__row">
+                    <h5 class="price__subtitle">3. Работы по кабельным сетям</h5>
+                    <p class="price__total"></p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Оконечивание кабеля типа UTP5e/телефонного (с одного конца)</h5>
+                    <p class="price__total">от 50 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Прокладка кабеля типа UTP5e/телефонного, за метр</h5>
+                    <p class="price__total">от 50 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Прокладка кабеля типа UTP5e/телефонного с укладкой в кабель-канал, за метр
+                    </h5>
+                    <p class="price__total">от 100 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка розетки типа RJ11 (телефон)</h5>
+                    <p class="price__total">от 150 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка розетки типа RJ45 (интернет)</h5>
+                    <p class="price__total">от 150 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Технические работы (сверление, монтаж/демонтаж конструкций и т.д.)</h5>
+                    <p class="price__total">договорн.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__subscribe">Длина используемого при прокладке кабеля замеряется по штатным меткам
+                        на самом кабеле. Цена не включает в себя стоимость матерала (кабель, розетка и т.д.)</h5>
+                </li>
+
+
+                <li class="price__row">
+                    <h5 class="price__subtitle">4. Установка программного обеспечения</h5>
+                    <p class="price__total"></p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Комплексная установка ПО (установка операционной системы, офисного пакета,
+                        архиватора, мультимедиа приложений, драйверов) на ПК и ноутбуки</h5>
+                    <p class="price__total">2000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Комплексная установка ПО с переносом профилей пользователей и сохранением
+                        данных со старого ПК (ноутбука) на новый</h5>
+                    <p class="price__total">3000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Замена жесткого диска с последующим клонированием ОС на новый диск</h5>
+                    <p class="price__total">3000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка серверной операционной системы с номинальными настройками служб и
+                        сервисов</h5>
+                    <p class="price__total">4000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка MS SQL или PostgreSQL сервера</h5>
+                    <p class="price__total">1000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка 1С (клиентская часть) на ПК или ноутбук пользователя</h5>
+                    <p class="price__total">500 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка драйверов устройств, за единицу</h5>
+                    <p class="price__total">250 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка прикладного софта, за единицу</h5>
+                    <p class="price__total">от 500 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка и настройка антивирусной программы</h5>
+                    <p class="price__total">500 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка Apache (web — сервер)</h5>
+                    <p class="price__total">1000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__subscribe">Все программное обеспечение предоставляется Заказчиком и обязательно
+                        должно иметь документы подтверждающие право его использования. Нелегальное либо нелицензионное
+                        ПО мы не устанавливаем!</h5>
+                </li>
+
+
+                <li class="price__row">
+                    <h5 class="price__subtitle">5. Настройка специализированного ПО</h5>
+                    <p class="price__total"></p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Конфигурирование RAID-массива</h5>
+                    <p class="price__total">1000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Настройка резервного копирования данных (Windows, Linux)</h5>
+                    <p class="price__total">1000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Настройка VPN доступа к корпоративной сети</h5>
+                    <p class="price__total">600 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Настройка VPN-туннелей между удалеными офисами</h5>
+                    <p class="price__total">2000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Организация авторизованного доступа к сети Интернет, (при наличии
+                        установленного интернет-маршрутизатора на базе ОС Linux или аналога)</h5>
+                    <p class="price__total">1200 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Установка и настройка почтового сервера</h5>
+                    <p class="price__total">от 1500 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Настройка ИП-телефона (сип-телефона)</h5>
+                    <p class="price__total">500 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Настройка интернет-маршрутизатора</h5>
+                    <p class="price__total">2000 руб./шт.</p>
+                </li>
+
+
+                <li class="price__row">
+                    <h5 class="price__subtitle">6. Диагностика техники</h5>
+                    <p class="price__total"></p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Диагностика неисправности ПК или ноутубка и замена оборудования</h5>
+                    <p class="price__total">от 500 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Диагностика неисправности оргтехники (принтер, сканер, МФУ)</h5>
+                    <p class="price__total">от 500 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Диагностика неисправности монитора и замена оборудования</h5>
+                    <p class="price__total">от 350 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Диагностика неисправности планшетов и смартфонов</h5>
+                    <p class="price__total">договорн.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Сканирование ПК или ноутбука на наличие вредоносного ПО, за 1 ПК</h5>
+                    <p class="price__total">1000 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">Удаление вирусов блокирующих систему (winlock), за единицу.</h5>
+                    <p class="price__total">от 1200 руб./шт.</p>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__subscribe">Ремонт не осуществляем, выполняем только замену вышедшего из строя
+                        оборудования. В стоимоть включена помощь в подборе оборудования и его замена. Замена высокой
+                        сложности оплачивается отдельно.</h5>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__name">&nbsp;</h5>
+                </li>
+                <li class="price__row">
+                    <h5 class="price__subscribe">+ ряд других работ, цена договорная.<br>
+                        Работу выполняют сертифицированные специалисты с опытом работы более 10 лет.</h5>
+                </li>
+
+            </ul>
+
+
+            <a href="/index.html" class="button subscribe__button"
+                style="width: 207px; margin: 2rem auto 0 auto; ">Вернуться назад</a>
+    </main>
+
+    <script>
+        /*=============== DARK LIGHT THEME ===============*/
+        const darkTheme = 'dark-theme'
+
+        const selectedTheme = localStorage.getItem('selected-theme')
+
+        if (selectedTheme) {
+            document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+        }
+    </script>
+</body>
+
+</html>
