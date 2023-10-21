@@ -143,7 +143,7 @@ button {
   transition: 0.3s;
   width: 120px;
   height: 60px;
-  background: center / contain no-repeat url("/assets/img/logo.png");
+  background: center / contain no-repeat url("../img/logo.png");
 }
 
 .nav__logo i {
