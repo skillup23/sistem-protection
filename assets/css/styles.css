@@ -1,6 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -22,7 +22,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Montserrat", sans-serif;
+  --body-font: 'Montserrat', sans-serif;
   --biggest-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -141,9 +141,9 @@ button {
   display: inline-flex;
   align-items: center;
   transition: 0.3s;
-  width: 120px;
-  height: 60px;
-  background: center / contain no-repeat url("../img/logo.png");
+  width: 150px;
+  height: 75px;
+  background: center / contain no-repeat url('../img/logo.png');
 }
 
 .nav__logo i {
@@ -699,7 +699,7 @@ button {
 /* For large devices */
 @media screen and (min-width: 1023px) {
   .header {
-    padding: 0;
+    padding: 0.5rem;
   }
 
   .section {
